@@ -48,7 +48,7 @@ pet('Mira');
 
 // Multiple parameters and argument
 
-// can give a default value and then wouldn't hve to do if statement ex. let checker = 'no argument passed' and then add that to each parameter in parenthesis. 
+// can give a default value and then wouldn't have to do if statement ex. let checker = 'no argument passed' and then add that to each parameter in parenthesis. 
 function allMyDogs(smallHusky, bigHusky, borderCollie){
     if(smallHusky === undefined || bigHusky === undefined || borderCollie === undefined){   //don't have to put this step in. 
         console.log('no arguments passed');
